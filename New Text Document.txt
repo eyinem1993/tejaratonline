@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="یک سایت کامل با طراحی زیبا و بهینه">
+    <meta name="keywords" content="سایت کامل، طراحی وب، خدمات، محصولات">
+    <meta name="author" content="Your Name">
+    <title>سایت کامل</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+        nav ul li {
+            float: right;
+        }
+        nav ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            background-color: #111;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin: 20px 0;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 600px) {
+            nav ul li {
+                float: none;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>به سایت کامل خوش آمدید</h1>
+        <p>اینجا می‌توانید با خدمات و محصولات ما آشنا شوید</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#contact">تماس با ما</a></li>
+            <li><a href="#services">خدمات</a></li>
+            <li><a href="#about">درباره ما</a></li>
+            <li><a href="#home">صفحه اصلی</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="home">
+            <h2>صفحه اصلی</h2>
+            <p>این سایت با هدف ارائه بهترین خدمات و محصولات طراحی شده است.</p>
+        </section>
+
+        <section id="about">
+            <h2>درباره ما</h2>
+            <p>ما یک تیم حرفه‌ای در زمینه طراحی وب هستیم که به کیفیت و رضایت مشتری اهمیت می‌دهیم.</p>
+        </section>
+
+        <section id="services">
+            <h2>خدمات</h2>
+            <ul>
+                <li>طراحی وب</li>
+                <li>بهینه‌سازی سایت</li>
+                <li>توسعه اپلیکیشن‌های تحت وب</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>تماس با ما</h2>
+            <p>برای ارتباط با ما، می‌توانید از طریق ایمیل یا شماره تماس زیر اقدام کنید:</p>
+            <p>ایمیل: example@example.com</p>
+            <p>تلفن: 123-456-7890</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>کلیه حقوق محفوظ است &copy; 2025</p>
+    </footer>
+
+</body>
+</html>
